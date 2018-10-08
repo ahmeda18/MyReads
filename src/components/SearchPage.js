@@ -1,8 +1,8 @@
 import React from "react";
 import * as BooksAPI from "../BooksAPI";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import Book from "./Book";
+import PropTypes from "prop-types";
 
 class SearchPage extends React.Component {
   static propTypes = {

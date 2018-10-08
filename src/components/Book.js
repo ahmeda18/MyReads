@@ -25,7 +25,7 @@ render() {
 />
 <div className="book-shelf-changer">
 <select onChange={this.changeShelf} value={this.props.book.shelf}>
-<option value="none" disabled>
+<option value="move" disabled>
 Move to...
 </option>
 <option value="currentlyReading">Currently Reading</option>
